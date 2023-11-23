@@ -1,12 +1,21 @@
-import { Button } from "react-bootstrap";
-import HoaxDetectionForm from './HoaxDetectionForm';
+import React from "react";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import MyNavbar from "./components/Navbar";
+import Beranda from "./pages/HoaxDetectionForm";
+import TentangKami from "./pages/TentangKami";
+import Kontak from "./pages/Kontak";
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <HoaxDetectionForm />
-    </div>
+    <Router>
+      <MyNavbar />
+      <Routes>
+        <Route path="/about" element={<TentangKami />} />
+        <Route path="/contact" element={<Kontak />} />
+        <Route path="/" element={<Beranda />} />
+      </Routes>
+    </Router>
   );
-}
+};
 
 export default App;

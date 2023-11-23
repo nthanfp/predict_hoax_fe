@@ -5,6 +5,7 @@ import reportWebVitals from './reportWebVitals';
 
 // Importing the Bootstrap 5 CSS
 import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootswatch/dist/yeti/bootstrap.min.css'; 
 // Import font-awesome
 import 'font-awesome/css/font-awesome.min.css';
 // Style
