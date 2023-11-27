@@ -36,7 +36,7 @@ const HoaxDetectionForm = () => {
       };
 
       const response = await fetch(
-        "http://127.0.0.1:5000/api/news/predict",
+        "https://predict-hoax-backend.azurewebsites.net/api/news/predict",
         requestOptions
       );
 
