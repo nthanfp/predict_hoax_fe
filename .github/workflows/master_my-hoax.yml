@@ -59,4 +59,4 @@ jobs:
           app-name: 'my-hoax'
           slot-name: 'Production'
           package: .
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_B8109E5D2CBE495D9BC27B154ADA3A00 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_490888BE88764158B37ABDE91370C943 }}
